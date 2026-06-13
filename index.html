@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard LEO — Hermes KPI</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,'Segoe UI',system-ui,sans-serif}
+body{background:#0d1117;color:#c9d1d9;padding:16px}
+.ct{max-width:1200px;margin:0 auto}
+h1{color:#58a6ff;font-size:1.4em;margin-bottom:4px}.ts{color:#8b949e;font-size:0.8em}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;padding:16px;background:#161b22;border-radius:10px;border:1px solid #30363d}
+.bal{font-size:1.5em;font-weight:700;color:#3fb950}
+.gw{font-size:0.8em;color:#8b949e}
+.section-title{color:#58a6ff;font-size:0.85em;text-transform:uppercase;letter-spacing:.5px;margin:20px 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin-bottom:16px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:14px;text-align:center}
+.card .v{font-size:1.5em;font-weight:700;margin-bottom:4px}.card .l{color:#8b949e;font-size:0.75em;text-transform:uppercase}
+.src-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin-bottom:16px}
+.src-card{background:#161b22;border:1px solid #30363d;border-radius:8px;padding:14px}
+.src-card .n{font-size:1em;font-weight:700;margin-bottom:2px}
+.src-card .s{font-size:0.85em;color:#58a6ff}
+.src-card .tk{font-size:0.78em;color:#8b949e;margin-top:4px}
+.bar-container{margin-top:12px}
+.bar-row{display:flex;align-items:center;margin-bottom:6px;gap:8px}
+.bar-label{width:100px;font-size:0.75em;color:#8b949e;text-align:right}
+.bar-track{flex:1;height:22px;background:#21262d;border-radius:4px;overflow:hidden}
+.bar-fill{height:100%;border-radius:4px;display:flex;align-items:center;padding-left:6px;font-size:0.7em;color:#fff;font-weight:600}
+.bar-val{width:70px;font-size:0.72em;color:#c9d1d9;text-align:right}
+table{width:100%;border-collapse:collapse;font-size:0.8em;margin-top:8px}
+th{background:#21262d;color:#8b949e;font-size:0.72em;text-transform:uppercase;padding:8px 10px;text-align:left;border-bottom:2px solid #30363d;position:sticky;top:0}
+td{padding:6px 10px;border-bottom:1px solid #21262d;color:#c9d1d9;white-space:nowrap}
+tr:hover{background:#1c2128}
+.badge{display:inline-block;padding:1px 7px;border-radius:3px;font-size:0.72em;font-weight:600}
+.tg{background:#1f6feb30;color:#58a6ff;border:1px solid #1f6feb50}
+.tui{background:#3fb95030;color:#3fb950;border:1px solid #3fb95050}
+.cli{background:#d2992230;color:#d29922;border:1px solid #d2992250}
+.crn{background:#bc8cff30;color:#bc8cff;border:1px solid #bc8cff50}
+.tbl-wrap{background:#161b22;border:1px solid #30363d;border-radius:8px;overflow-x:auto;margin-bottom:16px}
+.tbl-wrap .tt{padding:12px 14px 0;color:#58a6ff;font-size:0.85em;text-transform:uppercase;letter-spacing:.5px}
+footer{text-align:center;color:#484f58;font-size:0.7em;padding:16px;border-top:1px solid #21262d;margin-top:20px}
+</style></head><body>
+<div class="ct">
+
+<header>
+<div><h1>📊 Dashboard LEO</h1><div class="ts">13/06/2026 18:18</div></div>
+<div style="text-align:right">
+<div class="bal">💰 $45.35</div>
+<div class="gw">Gateway: 🟢 Actif</div>
+</div>
+</header><div class="section-title">🏆 KPI globaux</div><div class="grid"><div class="card"><div class="v" style="color:#58a6ff">36</div><div class="l">sessions</div></div><div class="card"><div class="v" style="color:#3fb950">2 703</div><div class="l">messages</div></div><div class="card"><div class="v" style="color:#d29922">1 260</div><div class="l">appels outils</div></div><div class="card"><div class="v" style="color:#bc8cff">2 239</div><div class="l">appels API</div></div><div class="card"><div class="v" style="color:#58a6ff">2.80M</div><div class="l">tokens IN</div></div><div class="card"><div class="v" style="color:#3fb950">958K</div><div class="l">tokens OUT</div></div><div class="card"><div class="v" style="color:#d29922">217.91M</div><div class="l">cache hit</div></div><div class="card"><div class="v" style="color:#f85149">DeepSeek 🤖</div><div class="l">provider</div></div></div><div class="section-title">📡 Par source</div><div class="src-grid"><div class="src-card" style="border-left:3px solid #58a6ff"><div class="n">📱 telegram</div><div class="s">13 sessions · 1148 messages</div><div class="tk">1.83M in · 746K out</div></div><div class="src-card" style="border-left:3px solid #3fb950"><div class="n">🖥️ tui</div><div class="s">17 sessions · 1116 messages</div><div class="tk">734K in · 163K out</div></div><div class="src-card" style="border-left:3px solid #d29922"><div class="n">💻 cli</div><div class="s">3 sessions · 329 messages</div><div class="tk">181K in · 39K out</div></div><div class="src-card" style="border-left:3px solid #bc8cff"><div class="n">⏰ cron</div><div class="s">3 sessions · 110 messages</div><div class="tk">52K in · 10K out</div></div></div><div class="section-title">📈 Tokens par jour</div><div class="tbl-wrap" style="padding:14px"><div class="bar-container"><div style="margin-bottom:10px;font-size:0.78em;color:#8b949e">06-12</div><div class="bar-row"><div class="bar-label">Input</div><div class="bar-track"><div class="bar-fill" style="width:100.0%;background:#58a6ff">1.73M</div></div><div class="bar-val">1 725 811</div></div><div class="bar-row"><div class="bar-label">Output</div><div class="bar-track"><div class="bar-fill" style="width:29.0%;background:#3fb950">501K</div></div><div class="bar-val">501 140</div></div><div style="margin-bottom:10px;font-size:0.78em;color:#8b949e">06-13</div><div class="bar-row"><div class="bar-label">Input</div><div class="bar-track"><div class="bar-fill" style="width:62.2%;background:#58a6ff">1.07M</div></div><div class="bar-val">1 073 136</div></div><div class="bar-row"><div class="bar-label">Output</div><div class="bar-track"><div class="bar-fill" style="width:26.5%;background:#3fb950">457K</div></div><div class="bar-val">456 694</div></div></div></div><div class="section-title">🎯 Répartition sessions</div><div style="background:#161b22;border:1px solid #30363d;border-radius:8px;padding:16px;margin-bottom:16px"><div style="display:flex;gap:12px;flex-wrap:wrap"><div style="flex:1;min-width:120px;padding:10px;border-radius:6px;border:1px solid #58a6ff30;text-align:center"><div style="font-size:0.72em;color:#8b949e;text-transform:uppercase">📱 telegram</div><div style="font-size:1.3em;font-weight:700;color:#58a6ff">36.1%</div><div style="font-size:0.8em;color:#8b949e">13 sessions</div></div><div style="flex:1;min-width:120px;padding:10px;border-radius:6px;border:1px solid #3fb95030;text-align:center"><div style="font-size:0.72em;color:#8b949e;text-transform:uppercase">🖥️ tui</div><div style="font-size:1.3em;font-weight:700;color:#3fb950">47.2%</div><div style="font-size:0.8em;color:#8b949e">17 sessions</div></div><div style="flex:1;min-width:120px;padding:10px;border-radius:6px;border:1px solid #d2992230;text-align:center"><div style="font-size:0.72em;color:#8b949e;text-transform:uppercase">💻 cli</div><div style="font-size:1.3em;font-weight:700;color:#d29922">8.3%</div><div style="font-size:0.8em;color:#8b949e">3 sessions</div></div><div style="flex:1;min-width:120px;padding:10px;border-radius:6px;border:1px solid #bc8cff30;text-align:center"><div style="font-size:0.72em;color:#8b949e;text-transform:uppercase">⏰ cron</div><div style="font-size:1.3em;font-weight:700;color:#bc8cff">8.3%</div><div style="font-size:0.8em;color:#8b949e">3 sessions</div></div></div></div><div class="section-title">💬 10 dernières sessions</div><div class="tbl-wrap"><div class="tt">Sessions récentes</div><table><thead><tr><th>Titre</th><th>Source</th><th>Modèle</th><th>Msg</th><th>Outils</th><th>Début</th></tr></thead><tbody><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">Test Acknowledged by LEO</td><td><span class="badge cli">cli</span></td><td>DeepSeek</td><td>2</td><td>0</td><td>13/06 13:17</td></tr><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">Test Reception and Readiness</td><td><span class="badge tui">tui</span></td><td>DeepSeek</td><td>72</td><td>38</td><td>13/06 12:58</td></tr><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">Current AI Provider Clarification</td><td><span class="badge tg">telegram</span></td><td>DeepSeek</td><td>218</td><td>87</td><td>13/06 12:48</td></tr><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">Ready for Today's Tasks</td><td><span class="badge tg">telegram</span></td><td>DeepSeek</td><td>316</td><td>138</td><td>13/06 05:10</td></tr><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">budget-check · Jun 13 07:00</td><td><span class="badge crn">cron</span></td><td>DeepSeek</td><td>22</td><td>10</td><td>13/06 05:00</td></tr><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">daily-backup · Jun 13 06:06</td><td><span class="badge crn">cron</span></td><td>DeepSeek</td><td>20</td><td>11</td><td>13/06 04:00</td></tr><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">budget-check · Jun 12 18:09</td><td><span class="badge crn">cron</span></td><td>DeepSeek</td><td>68</td><td>33</td><td>12/06 16:01</td></tr><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">Linux Application Existence Question</td><td><span class="badge tui">tui</span></td><td>DeepSeek</td><td>8</td><td>0</td><td>12/06 15:38</td></tr><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">French Greeting and Assistance</td><td><span class="badge tg">telegram</span></td><td>DeepSeek</td><td>363</td><td>189</td><td>12/06 15:25</td></tr><tr><td style="max-width:220px;overflow:hidden;text-overflow:ellipsis">WhatsApp QR code linking steps</td><td><span class="badge cli">cli</span></td><td>DeepSeek</td><td>277</td><td>127</td><td>12/06 14:36</td></tr></tbody></table></div><footer>Généré par LEO · 13/06/2026 18:18</footer></div></body></html>
