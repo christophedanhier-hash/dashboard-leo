@@ -3,11 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< Updated upstream
-<title>Dashboard LEO · $35.25 · 60 sessions</title>
-=======
-<title>Dashboard LEO · $35.29 · 60 sessions</title>
->>>>>>> Stashed changes
+<title>Dashboard LEO</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -28,19 +24,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .card .mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:8px}
 .card .mini-item .mini-v{font-size:16px;font-weight:600}
 .card .mini-item .mini-l{color:#64748b;font-size:10px}
-<<<<<<< Updated upstream
-.charts-2col{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
-.chart-box{background:#1e293b;border-radius:12px;padding:16px;border:1px solid #334155}
-.chart-box h3{font-size:13px;color:#94a3b8;margin-bottom:10px}
-.chart-box canvas{max-height:220px}
-.chart-box.wide{grid-column:span 2}
-=======
 .charts-3col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:20px}
 .chart-box{background:#1e293b;border-radius:12px;padding:16px;border:1px solid #334155}
 .chart-box h3{font-size:13px;color:#94a3b8;margin-bottom:10px}
 .chart-box canvas{max-height:200px}
 .chart-box.wide{grid-column:span 3}
->>>>>>> Stashed changes
 table{width:100%;border-collapse:collapse;font-size:12px}
 th{text-align:left;padding:8px 6px;color:#64748b;font-weight:500;border-bottom:1px solid #334155;white-space:nowrap}
 td{padding:6px;border-bottom:1px solid #1e293b;white-space:nowrap}
@@ -55,11 +43,7 @@ tr:hover td{background:#1e293b}
 .progress-bar{height:100%;border-radius:3px;transition:width .5s}
 .footer{text-align:center;color:#475569;font-size:11px;margin-top:20px;padding-top:14px;border-top:1px solid #1e293b}
 a{color:#a78bfa}
-<<<<<<< Updated upstream
-@media(max-width:768px){.charts-2col{grid-template-columns:1fr}.chart-box.wide{grid-column:span 1}
-=======
 @media(max-width:768px){.charts-3col{grid-template-columns:1fr}.chart-box.wide{grid-column:span 1}.grid{grid-template-columns:1fr 1fr}}
->>>>>>> Stashed changes
 </style>
 </head>
 <body>
@@ -67,89 +51,42 @@ a{color:#a78bfa}
 <div class="header">
   <div>
     <h1>🛡️ Dashboard LEO <span>— KPIs Hermes Agent</span></h1>
-<<<<<<< Updated upstream
-    <div class="date">📅 mis à jour 18/06/2026 09:15</div>
-  </div>
-  <div style="display:flex;gap:12px;align-items:center">
-    <div style="font-size:28px">📈</div>
-    <div style="text-align:right">
-      <div style="color:#3fb950;font-size:22px;font-weight:700">60</div>
-      <div style="color:#64748b;font-size:10px">sessions 7j</div>
-    </div>
-    <div style="text-align:right;padding-left:12px;border-left:1px solid #334155">
-      <div style="color:#34d399;font-size:20px;font-weight:700">$35.25</div>
-      <div style="color:#64748b;font-size:10px">Gateway: 🟠 Actif</div>
-    </div>
-=======
-    <div class="date">18/06/2026 09:28</div>
+    <div class="date">18/06/2026 09:32</div>
   </div>
   <div style="text-align:right">
     <div style="color:#34d399;font-size:22px;font-weight:700">$35.29</div>
     <div style="color:#64748b;font-size:10px">budget DeepSeek</div>
     <div style="color:#a78bfa;font-size:12px">Gateway: 🟢 Actif</div>
->>>>>>> Stashed changes
   </div>
 </div>
 
 <div class="nav-bar">
-<<<<<<< Updated upstream
-=======
   <a href="https://christophedanhier-hash.github.io/bavi-leo-dashboard/" class="nav-link">🏛️ BAVI LEO</a>
->>>>>>> Stashed changes
   <a href="https://christophedanhier-hash.github.io/dashboard-leo/" class="nav-link active">📊 Dashboard LEO</a>
   <a href="https://christophedanhier-hash.github.io/leo-metrics/" class="nav-link">💻 Machines</a>
   <a href="https://christophedanhier-hash.github.io/crons-dashboard/" class="nav-link">⏱️ Crons</a>
   <a href="https://christophedanhier-hash.github.io/github-dashboard/" class="nav-link">🐙 GitHub</a>
-<<<<<<< Updated upstream
-  <a href="https://christophedanhier-hash.github.io/bavi-leo-dashboard/" class="nav-link">🏛️ BAVI LEO</a>
-=======
->>>>>>> Stashed changes
 </div>
 
 <div class="grid">
   <div class="card">
-<<<<<<< Updated upstream
-    <div class="label">Sessions totales</div>
-    <div class="value" style="color:#818cf8">60</div>
-    <div class="sub">+0 aujourd'hui · 8 dernières 24h</div>
-  </div>
-  <div class="card">
-    <div class="label">Messages</div>
-    <div class="value" style="color:#60a5fa">3 639</div>
-    <div class="sub">1 741 outils · 5 676 appels API</div>
-  </div>
-  <div class="card">
-    <div class="label">Tokens totaux</div>
-    <div class="value" style="color:#34d399">8 294 538</div>
-    <div class="sub">IN 6 000 297 · OUT 2 294 241</div>
-    <div class="mini-grid">
-      <div class="mini-item"><div class="mini-v" style="color:#fbbf24">100 005</div><div class="mini-l">moy/session</div></div>
-      <div class="mini-item"><div class="mini-v" style="color:#60a5fa">2.6</div><div class="mini-l">ratio I/O</div></div>
-=======
     <div class="label">Sessions</div>
     <div class="value" style="color:#818cf8">60</div>
     <div class="sub"></div>
   </div>
   <div class="card">
     <div class="label">Tokens</div>
-    <div class="value" style="color:#34d399">8 385 267</div>
-    <div class="sub">IN 6 061 203 · OUT 2 324 064</div>
+    <div class="value" style="color:#34d399">8 416 643</div>
+    <div class="sub">IN 6 074 848 · OUT 2 341 795</div>
     <div class="mini-grid">
-      <div class="mini-item"><div class="mini-v" style="color:#fbbf24">139754</div><div class="mini-l">moy/session</div></div>
+      <div class="mini-item"><div class="mini-v" style="color:#fbbf24">140277</div><div class="mini-l">moy/session</div></div>
       <div class="mini-item"><div class="mini-v" style="color:#60a5fa">1:2.6</div><div class="mini-l">ratio I/O</div></div>
->>>>>>> Stashed changes
     </div>
   </div>
   <div class="card">
     <div class="label">Cache hit</div>
-<<<<<<< Updated upstream
-    <div class="value" style="color:#f472b6">623 115 904</div>
-    <div class="sub">103.85x les tokens IN</div>
-    <div class="mini-grid">
-      <div class="mini-item"><div class="mini-v" style="color:#f472b6">0</div><div class="mini-l">reasoning</div></div>
-=======
-    <div class="value" style="color:#f472b6">629 173 248</div>
-    <div class="sub">103.8x tokens IN</div>
+    <div class="value" style="color:#f472b6">631 938 048</div>
+    <div class="sub">104.0x tokens IN</div>
     <div class="mini-grid">
       <div class="mini-item"><div class="mini-v" style="color:#fbbf24">0</div><div class="mini-l">reasoning</div></div>
     </div>
@@ -161,71 +98,11 @@ a{color:#a78bfa}
     <div class="mini-grid">
       <div class="mini-item"><div class="mini-v" style="color:#34d399">27</div><div class="mini-l">outils/session</div></div>
       <div class="mini-item"><div class="mini-v" style="color:#818cf8">96</div><div class="mini-l">API/session</div></div>
->>>>>>> Stashed changes
     </div>
   </div>
   <div class="card">
     <div class="label">Durée moyenne</div>
     <div class="value" style="color:#fbbf24">116.7</div>
-<<<<<<< Updated upstream
-    <div class="sub">minutes par session</div>
-    <div class="mini-grid">
-      <div class="mini-item"><div class="mini-v" style="color:#60a5fa">20h</div><div class="mini-l">heure de pointe</div></div>
-      <div class="mini-item"><div class="mini-v" style="color:#34d399">60.6</div><div class="mini-l">msg/session</div></div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="label">Tendance 7 jours</div>
-    <div class="value" style="color:#3fb950">60 sessions</div>
-    <div class="sub">📈 +6000% vs semaine précédente</div>
-    <div class="mini-grid">
-      <div class="mini-item"><div class="mini-v" style="color:#34d399">138 242</div><div class="mini-l">tokens/session</div></div>
-      <div class="mini-item"><div class="mini-v" style="color:#64748b">999j</div><div class="mini-l">budget rest.</div></div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="label">Budget DeepSeek</div>
-    <div class="value" style="color:'#34d399'">$35.25</div>
-    <div class="sub">≈ 999 jours restants</div>
-    <div class="progress"><div class="progress-bar" style="width:70%;background:'#34d399'"></div></div>
-  </div>
-</div>
-
-<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(180px,1fr))">
-  <div class="card" style="border-left:3px solid #f85149"><div class="label">🤖 DeepSeek</div><div class="value" style="color:#f85149;font-size:20px">60 sessions</div><div class="sub">💰 $35.25</div></div>
-  <div class="card" style="border-left:3px solid #10b981"><div class="label">🏠 Ollama</div><div class="value" style="color:#10b981;font-size:20px">✅ En ligne</div><div class="sub">qwen2.5:7b</div></div>
-  <div class="card" style="border-left:3px solid #818cf8"><div class="label">⚡ Gemini</div><div class="value" style="color:#818cf8;font-size:20px">✅ Clé présente</div><div class="sub">Fallback inactif</div></div>
-</div>
-
-<div class="charts-3col">
-  <div class="chart-box"><h3>📈 Tokens par jour</h3><canvas id="tc"></canvas></div>
-  <div class="chart-box"><h3>📊 Sessions par jour</h3><canvas id="scd"></canvas></div>
-  <div class="chart-box"><h3>💬 Messages & Outils par jour</h3><canvas id="mcd"></canvas></div>
-  <div class="chart-box"><h3>🕐 Sessions par heure</h3><canvas id="hcd"></canvas></div>
-  <div class="chart-box"><h3>🔵 Sessions par source</h3><canvas id="sc"></canvas></div>
-</div>
-
-<div class="chart-box wide">
-<h3>📱 Détail par source</h3>
-<table><thead><tr><th>Source</th><th>Sessions</th><th>%</th><th>Messages</th><th>Outils</th><th>Tokens</th><th>Durée moy.</th></tr></thead><tbody><tr><td><span class="badge badge-telegram">telegram</span></td><td>36</td><td>60.0%</td><td>2068</td><td>1024</td><td>7 092 721</td><td>592.1</td></tr><tr><td><span class="badge badge-tui">tui</span></td><td>17</td><td>28.3%</td><td>1116</td><td>500</td><td>897 105</td><td>61.7</td></tr><tr><td><span class="badge badge-cron">cron</span></td><td>4</td><td>6.7%</td><td>126</td><td>65</td><td>84 267</td><td>9.3</td></tr><tr><td><span class="badge badge-cli">cli</span></td><td>3</td><td>5.0%</td><td>329</td><td>152</td><td>220 445</td><td>0.2</td></tr></tbody></table>
-</div>
-
-<div class="chart-box wide">
-<h3>💬 10 dernières sessions</h3>
-<table><thead><tr><th>Titre</th><th>Source</th><th>Modèle</th><th>Msg</th><th>Outils</th><th>Début</th></tr></thead><tbody><tr><td class="title-cell">20260617_204010_1625...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>8</td><td>3</td><td>17/06 22:40</td></tr><tr><td class="title-cell">20260617_203852_afd9...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>15</td><td>7</td><td>17/06 22:38</td></tr><tr><td class="title-cell">20260617_203852_6b35...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>29</td><td>15</td><td>17/06 22:38</td></tr><tr><td class="title-cell">20260617_203851_3f59...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>30</td><td>16</td><td>17/06 22:38</td></tr><tr><td class="title-cell">20260617_203756_a2c2...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>18</td><td>8</td><td>17/06 22:37</td></tr><tr><td class="title-cell">20260617_203535_9c19...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>12</td><td>6</td><td>17/06 22:35</td></tr><tr><td class="title-cell">20260617_203140_d2f1...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>6</td><td>2</td><td>17/06 22:31</td></tr><tr><td class="title-cell">20260617_203140_b1ea...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>14</td><td>9</td><td>17/06 22:31</td></tr><tr><td class="title-cell">20260617_060303_6295...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>18</td><td>12</td><td>17/06 08:03</td></tr><tr><td class="title-cell">20260617_060303_7bd0...</td><td><span class="badge b-tg">telegram</span></td><td>DeepSeek</td><td>24</td><td>16</td><td>17/06 08:03</td></tr></tbody></table>
-</div>
-
-<div class="chart-box wide">
-<h3>🤖 Bots</h3>
-<table><thead><tr><th>Bot</th><th>Sessions</th><th>Messages</th><th>Outils</th><th>Tokens IN</th><th>Tokens OUT</th></tr></thead><tbody>
-<tr><td>🦁 LEO — Agent principal</td><td>60</td><td>3 549</td><td>1 698</td><td>5 976 410</td><td>2 276 889</td></tr>
-<tr><td>🧭 BAVI LEO — Bot Voyages</td><td>5</td><td>692</td><td>309</td><td>438 715</td><td>142 507</td></tr>
-</tbody></table>
-</div>
-
-<div class="footer">
-  Dashboard LEO · Propulsé par Hermes Agent · {data['totals']['sessions']} sessions
-=======
     <div class="sub">min par session</div>
     <div class="mini-grid">
       <div class="mini-item"><div class="mini-v" style="color:#60a5fa">22h</div><div class="mini-l">heure pointe</div></div>
@@ -251,7 +128,7 @@ a{color:#a78bfa}
   <h3>📱 Détail par source</h3>
   <table>
     <thead><tr><th>Source</th><th>Sessions</th><th>%</th><th>Messages</th><th>Tokens</th><th>Outils</th></tr></thead>
-    <tbody><tr><td><span class="badge badge-telegram">📱 telegram</span></td><td>36</td><td>60.0%</td><td>1 829</td><td>7 183 450</td><td>909</td></tr>
+    <tbody><tr><td><span class="badge badge-telegram">📱 telegram</span></td><td>36</td><td>60.0%</td><td>1 829</td><td>7 214 826</td><td>909</td></tr>
 <tr><td><span class="badge badge-tui">🖥️ tui</span></td><td>17</td><td>28.3%</td><td>1 116</td><td>897 105</td><td>500</td></tr>
 <tr><td><span class="badge badge-cron">⏰ cron</span></td><td>4</td><td>6.7%</td><td>126</td><td>84 267</td><td>65</td></tr>
 <tr><td><span class="badge badge-cli">💻 cli</span></td><td>3</td><td>5.0%</td><td>329</td><td>220 445</td><td>152</td></tr>
@@ -263,7 +140,7 @@ a{color:#a78bfa}
   <h3>🏆 Top sessions</h3>
   <table>
     <thead><tr><th>#</th><th>Titre</th><th>Source</th><th>IN</th><th>OUT</th><th>Msg</th><th>Outils</th><th>Début</th></tr></thead>
-    <tbody><tr><td>1</td><td class="title-cell">Nouvelle session de travail</td><td><span class="badge badge-telegram">telegram</span></td><td>2 296 374</td><td>1 128 764</td><td>134</td><td>60</td><td>13/06 23:01</td></tr>
+    <tbody><tr><td>1</td><td class="title-cell">Nouvelle session de travail</td><td><span class="badge badge-telegram">telegram</span></td><td>2 310 019</td><td>1 146 495</td><td>134</td><td>60</td><td>13/06 23:01</td></tr>
 <tr><td>2</td><td class="title-cell">Ready for Today's Tasks</td><td><span class="badge badge-telegram">telegram</span></td><td>566 784</td><td>343 765</td><td>316</td><td>138</td><td>13/06 07:10</td></tr>
 <tr><td>3</td><td class="title-cell">French Greeting and Assistance</td><td><span class="badge badge-telegram">telegram</span></td><td>549 787</td><td>203 008</td><td>363</td><td>189</td><td>12/06 17:25</td></tr>
 <tr><td>4</td><td class="title-cell">Current AI Provider Clarification</td><td><span class="badge badge-telegram">telegram</span></td><td>484 906</td><td>213 420</td><td>374</td><td>145</td><td>13/06 14:48</td></tr>
@@ -279,47 +156,26 @@ a{color:#a78bfa}
 
 <div class="footer">
   Dashboard LEO · Propulsé par Hermes Agent · 60 sessions
->>>>>>> Stashed changes
   · <a href="https://github.com/christophedanhier-hash/dashboard-leo">GitHub</a>
 </div>
 
 <script>
-<<<<<<< Updated upstream
-const d = {"timestamp": "18/06/2026 09:10", "totals": {"sessions": 60, "input_tokens": 5994006, "output_tokens": 2289217, "cache_read": 619355008, "cache_write": 0, "messages": 3638, "tool_calls": 1741, "api_calls": 5659}, "by_source": {"cli": {"sessions": 3, "input": 181479, "output": 38966, "messages": 329}, "cron": {"sessions": 4, "input": 72607, "output": 11660, "messages": 126}, "telegram": {"sessions": 36, "input": 5005469, "output": 2075937, "messages": 2067}, "tui": {"sessions": 17, "input": 734451, "output": 162654, "messages": 1116}}, "daily": [{"day": "2026-06-12", "sessions": 28, "input": 1725811, "output": 501140, "messages": 1995, "tools": 932}, {"day": "2026-06-13", "sessions": 9, "input": 3431344, "output": 1673964, "messages": 1236, "tools": 561}, {"day": "2026-06-14", "sessions": 4, "input": 126306, "output": 21284, "messages": 94, "tools": 59}, {"day": "2026-06-16", "sessions": 8, "input": 198728, "output": 20924, "messages": 106, "tools": 74}, {"day": "2026-06-17", "sessions": 11, "input": 511817, "output": 71905, "messages": 207, "tools": 115}], "recent_sessions": [{"id": "20260617_204010_162588", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 22:40", "messages": 8, "tools": 3, "input": 6985, "output": 1639, "cost": 0, "title": null}, {"id": "20260617_203852_afd94b", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 22:38", "messages": 15, "tools": 7, "input": 12312, "output": 2182, "cost": 0, "title": null}, {"id": "20260617_203852_6b35e5", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 22:38", "messages": 29, "tools": 15, "input": 45521, "output": 6841, "cost": 0, "title": null}, {"id": "20260617_203851_3f5991", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 22:38", "messages": 30, "tools": 16, "input": 54758, "output": 5881, "cost": 0, "title": null}, {"id": "20260617_203756_a2c299", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 22:37", "messages": 18, "tools": 8, "input": 53235, "output": 3720, "cost": 0, "title": null}, {"id": "20260617_203535_9c19b7", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 22:35", "messages": 12, "tools": 6, "input": 57357, "output": 26612, "cost": 0, "title": null}, {"id": "20260617_203140_d2f1d7", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 22:31", "messages": 6, "tools": 2, "input": 21224, "output": 2090, "cost": 0, "title": null}, {"id": "20260617_203140_b1ea69", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 22:31", "messages": 14, "tools": 9, "input": 82303, "output": 2815, "cost": 0, "title": null}, {"id": "20260617_060303_62952d", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 08:03", "messages": 18, "tools": 12, "input": 45890, "output": 4016, "cost": 0, "title": null}, {"id": "20260617_060303_7bd02f", "source": "telegram", "model": "deepseek-v4-flash", "started": "17/06 08:03", "messages": 24, "tools": 16, "input": 64330, "output": 4926, "cost": 0, "title": null}], "balance": 35.29, "balance_available": 35.29, "gateway": "running", "ollama": {"server_online": true, "model_available": "qwen2.5:7b", "calls": 0, "tokens_in": 0, "tokens_out": 0, "models_used": {}, "models_available": ["qwen2.5:7b"], "last_call": null}, "gemini": {"configured": true, "calls": 0, "tokens_in": 0, "tokens_out": 0}, "bavi_leo": {"sessions": 5, "input_tokens": 438715, "output_tokens": 142507, "messages": 692, "tool_calls": 309, "api_calls": 328, "by_source": {"telegram": {"sessions": 5, "input": 438715, "output": 142507, "messages": 692}}}, "crons": [], "sessions_summary": "Total sessions: 60
-Total messages: 3638
-  cli: 3 sessions
-  telegram: 36 sessions
-Database size: 57.9 MB"};
-const hourlyLabels = ["04h", "05h", "06h", "07h", "08h", "09h", "12h", "13h", "14h", "15h", "16h", "18h", "20h", "21h"];
-const hourlyData = [2, 4, 7, 8, 3, 2, 5, 2, 1, 3, 5, 1, 14, 3];
-const f = n => n.toLocaleString('fr-FR');
-const dailyRev = [...d.daily].reverse();
-try {
-new Chart(document.getElementById('tc'),{type:'bar',data:{labels:dailyRev.map(x=>x.day.slice(5)),datasets:[{label:'Input',data:dailyRev.map(x=>x.input),backgroundColor:'#818cf8',borderRadius:4},{label:'Output',data:dailyRev.map(x=>x.output),backgroundColor:'#34d399',borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#94a3b8',boxWidth:12}}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'}},x:{grid:{display:false}}}}});
-new Chart(document.getElementById('scd'),{type:'bar',data:{labels:dailyRev.map(x=>x.day.slice(5)),datasets:[{label:'Sessions',data:dailyRev.map(x=>x.sessions),backgroundColor:'#818cf8',borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'},ticks:{stepSize:1}},x:{grid:{display:false}}}}});
-new Chart(document.getElementById('mcd'),{type:'bar',data:{labels:dailyRev.map(x=>x.day.slice(5)),datasets:[{label:'Messages',data:dailyRev.map(x=>x.messages),backgroundColor:'#60a5fa',borderRadius:4},{label:'Outils',data:dailyRev.map(x=>x.tools),backgroundColor:'#fbbf24',borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#94a3b8',boxWidth:12}}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'},ticks:{stepSize:1}},x:{grid:{display:false}}}}});
-new Chart(document.getElementById('hcd'),{type:'bar',data:{labels:hourlyLabels,datasets:[{label:'Sessions',data:hourlyData,backgroundColor:hourlyData.map(v=>v>8?'#818cf8':'#818cf860'),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'},ticks:{stepSize:1}},x:{grid:{display:false}}}}});
-const sl = {cli:'💻 CLI',telegram:'📱 Telegram',tui:'🖥️ TUI',cron:'⏰ Cron'},sc = {cli:'#f59e0b',telegram:'#0088cc',tui:'#10b981',cron:'#6366f1'};
-new Chart(document.getElementById('sc'),{type:'doughnut',data:{labels:Object.keys(d.by_source).map(k=>sl[k]||k),datasets:[{data:Object.keys(d.by_source).map(k=>d.by_source[k].sessions),backgroundColor:Object.keys(d.by_source).map(k=>sc[k]||'#64748b'),borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:'#94a3b8',padding:10}}}}});
-} catch(e) { console.error('Chart error:', e.message); }
-=======
-const l=["2026-06-12", "2026-06-13", "2026-06-14", "2026-06-16", "2026-06-17"];
-const ss=[28, 9, 4, 8, 11];
-const tk=[2226951, 5207352, 147590, 219652, 583722];
-const ms=[1995, 998, 94, 106, 207];
-const tl=[932, 446, 59, 74, 115];
-const sk=["telegram", "cron", "cli", "tui"];
-const sv=[36, 4, 3, 17];
-const hl=["06h", "07h", "08h", "09h", "10h", "11h", "14h", "15h", "16h", "17h", "18h", "20h", "22h", "23h"];
-const hd=[2, 4, 7, 8, 3, 2, 5, 2, 1, 3, 5, 1, 14, 3];
-const sc={telegram:'#0088cc',tui:'#10b981',cli:'#f59e0b',cron:'#6366f1'};
-const si={telegram:'📱 Telegram',tui:'🖥️ TUI',cli:'💻 CLI',cron:'⏰ Cron'};
+const l=JSON.parse('["2026-06-12", "2026-06-13", "2026-06-14", "2026-06-16", "2026-06-17"]');
+const ss=JSON.parse('[28, 9, 4, 8, 11]');
+const tk=JSON.parse('[2226951, 5238728, 147590, 219652, 583722]');
+const ms=JSON.parse('[1995, 998, 94, 106, 207]');
+const tl=JSON.parse('[932, 446, 59, 74, 115]');
+const sk=JSON.parse('["telegram", "cron", "cli", "tui"]');
+const sv=JSON.parse('[36, 4, 3, 17]');
+const hl=JSON.parse('["06h", "07h", "08h", "09h", "10h", "11h", "14h", "15h", "16h", "17h", "18h", "20h", "22h", "23h"]');
+const hd=JSON.parse('[2, 4, 7, 8, 3, 2, 5, 2, 1, 3, 5, 1, 14, 3]');
+const sc={"telegram": "#0088cc", "tui": "#10b981", "cli": "#f59e0b", "cron": "#6366f1"};
+const si={"telegram": "\ud83d\udcf1 Telegram", "tui": "\ud83d\udda5\ufe0f TUI", "cli": "\ud83d\udcbb CLI", "cron": "\u23f0 Cron"};
 new Chart(document.getElementById('tc'),{type:'bar',data:{labels:l,datasets:[{label:'Tokens',data:tk,borderRadius:4,backgroundColor:'#818cf8'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'}},x:{grid:{display:false}}}}});
 new Chart(document.getElementById('scd'),{type:'bar',data:{labels:l,datasets:[{label:'Sessions',data:ss,borderRadius:4,backgroundColor:'#818cf8'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'},ticks:{stepSize:1}},x:{grid:{display:false}}}}});
 new Chart(document.getElementById('mcd'),{type:'bar',data:{labels:l,datasets:[{label:'Messages',data:ms,borderRadius:4,backgroundColor:'#60a5fa'},{label:'Outils',data:tl,borderRadius:4,backgroundColor:'#fbbf24'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#94a3b8',boxWidth:12}}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'},ticks:{stepSize:1}},x:{grid:{display:false}}}}});
 new Chart(document.getElementById('hcd'),{type:'bar',data:{labels:hl,datasets:[{label:'Sessions',data:hd,borderRadius:4,backgroundColor:hd.map(v=>v>8?'#818cf8':'#818cf860')}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'},ticks:{stepSize:1}},x:{grid:{display:false}}}}});
 new Chart(document.getElementById('sc'),{type:'doughnut',data:{labels:sk.map(k=>si[k]||k),datasets:[{data:sv,backgroundColor:sk.map(k=>sc[k]||'#64748b'),borderWidth:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{color:'#94a3b8',padding:10}}}}});
->>>>>>> Stashed changes
 </script>
 </body>
 </html>
