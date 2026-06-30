@@ -51,10 +51,10 @@ a{color:#a78bfa}
 <div class="header">
   <div>
     <h1>🛡️ Dashboard LEO <span>— KPIs Hermes Agent</span></h1>
-    <div class="date">30/06/2026 01:00</div>
+    <div class="date">30/06/2026 02:00</div>
   </div>
   <div style="text-align:right">
-    <div style="color:#34d399;font-size:22px;font-weight:700">$60.40</div>
+    <div style="color:#34d399;font-size:22px;font-weight:700">$60.38</div>
     <div style="color:#64748b;font-size:10px">budget DeepSeek</div>
     <div style="color:#a78bfa;font-size:12px">Gateway: 🟢 Actif</div>
   </div>
@@ -119,10 +119,10 @@ a{color:#a78bfa}
   </div>
   <div class="card">
     <div class="label">💰 Budget DeepSeek</div>
-    <div class="value" style="color:#34d399">$60.40</div>
-    <div class="sub">Dépensé: $0.32 / $50.00 ce mois</div>
-    <div class="progress"><div class="progress-bar" style="width:0.6%;background:#34d399"></div></div>
-    <div class="sub" style="margin-top:4px">2796 jours restants · $0.02/j</div>
+    <div class="value" style="color:#34d399">$60.38</div>
+    <div class="sub">Dépensé: $0.34 / $50.00 ce mois</div>
+    <div class="progress"><div class="progress-bar" style="width:0.7%;background:#34d399"></div></div>
+    <div class="sub" style="margin-top:4px">2795 jours restants · $0.02/j</div>
     <div class="progress" style="margin-top:4px"><div class="progress-bar" style="width:100%;background:#3fb950"></div></div>
     <div class="mini-grid" style="margin-top:8px">
       <div class="mini-item"><div class="mini-v" style="color:#c084fc;font-size:14px">$0.14</div><div class="mini-l">DeepSeek Pro</div></div>
@@ -197,7 +197,7 @@ a{color:#a78bfa}
 
 <div class="footer">
   Dashboard LEO · Propulsé par Hermes Agent · 498 sessions
-  · <a href="https://github.com/christophedanhier-hash/dashboard-leo">GitHub</a> · <a href="https://github.com/christophedanhier-hash/leo-tracker/issues/9">#9</a> · 230024500</div>
+  · <a href="https://github.com/christophedanhier-hash/dashboard-leo">GitHub</a> · <a href="https://github.com/christophedanhier-hash/leo-tracker/issues/9">#9</a> · 000025018</div>
 </div>
 
 <script>
@@ -213,7 +213,7 @@ const hd=JSON.parse('[15, 14, 15, 15, 15, 14, 28, 19, 34, 26, 21, 26, 18, 22, 28
 const sc={"telegram": "#0088cc", "tui": "#10b981", "cli": "#f59e0b", "cron": "#6366f1"};
 const si={"telegram": "\ud83d\udcf1 Telegram", "tui": "\ud83d\udda5\ufe0f TUI", "cli": "\ud83d\udcbb CLI", "cron": "\u23f0 Cron"};
 const bh_l=JSON.parse('["06-21", "06-22", "06-23", "06-24", "06-25", "06-26", "06-27", "06-28", "06-29", "06-30"]');
-const bh_v=JSON.parse('[27.26, 25.05, 23.2, 20.31, 18.64, 17.0, 15.57, 12.72, 60.72, 60.4]');
+const bh_v=JSON.parse('[27.26, 25.05, 23.2, 20.31, 18.64, 17.0, 15.57, 12.72, 60.72, 60.38]');
 new Chart(document.getElementById('tc'),{type:'bar',data:{labels:l,datasets:[{label:'Tokens',data:tk,borderRadius:4,backgroundColor:'#818cf8'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'}},x:{grid:{display:false}}}}});
 new Chart(document.getElementById('scd'),{type:'bar',data:{labels:l,datasets:[{label:'Sessions',data:ss,borderRadius:4,backgroundColor:'#818cf8'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'},ticks:{stepSize:1}},x:{grid:{display:false}}}}});
 new Chart(document.getElementById('mcd'),{type:'bar',data:{labels:l,datasets:[{label:'Messages',data:ms,borderRadius:4,backgroundColor:'#60a5fa'},{label:'Outils',data:tl,borderRadius:4,backgroundColor:'#fbbf24'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#94a3b8',boxWidth:12}}},scales:{y:{beginAtZero:true,grid:{color:'#1e293b'},ticks:{stepSize:1}},x:{grid:{display:false}}}}});
